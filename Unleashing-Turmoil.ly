@@ -2,7 +2,7 @@
 
 date = #(strftime "%B %d %Y" (localtime (current-time)))
 \header {
-  title = "SOTC like"
+  title = "Unleashing Turmoil"
   %instrument = "Piano"
   composer = "VinLudens"
   %arranger = "Arr. by VinLudens"
