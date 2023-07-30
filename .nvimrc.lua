@@ -1,7 +1,7 @@
 require("nvls").setup({
     lilypond = {
         options = {
-            main_file = "SOTC-like.ly",
+            main_file = "Unleashing-Turmoil.ly",
             include_dir = "./openlilylib",
         },
     },
