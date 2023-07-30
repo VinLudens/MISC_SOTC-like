@@ -29,11 +29,14 @@ left = \absolute {
   <a, a>8\( <f, f> q <d, d> q <a,, a,> q <f,, f,>\) |
   
   \key g \minor
-  <c c'>8-"turn into 3/4"\( <g, g> q <es, es> q <c, c>\) <d d'>8\( <a, a> |
-  q <f, f> q <d, d>\) <es es'>8\( <bes, bes> q <g, g> |
+  \time 3/4
+  <c c'>8\( <g, g> q <es, es> q <c, c>\) |
+  <d d'>8\( <a, a> q <f, f> q <d, d>\) |
+  <es es'>8\( <bes, bes> q <g, g> q <es, es> |
+  \time 4/4
+  <d, d>2 <c, c> ~ |
   \time 5/4
-  q <es, es> <d, d>2 <c, c> ~ |
-  q2 bes,2\)\fermata fis,4 |
+  q2 bes,2\)\fermata fis,4\fermata |
   \time 4/4
 
   \bar "||"

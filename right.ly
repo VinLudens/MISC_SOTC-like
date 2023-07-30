@@ -29,10 +29,13 @@ right = \absolute {
   <d' f' d''>1\) |
   
   \key g \minor
-  <es' g' es''>2. <f' a' f''>4 ~ |
-  2 <g' bes' g''>2 ~ |
+  \time 3/4
+  <es' g' es''>2. |
+  <f' a' f''>2. |
+  <g' bes' g''>2. |
+  \time 4/4
+  <a' c'' f'' a''>1 |
   \time 5/4
-  4 <a' c'' f'' a''>1 |
   <bes' bes''>1 r4 |
   \time 4/4
   
