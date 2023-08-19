@@ -25,6 +25,11 @@ atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
 \editionMod dynamics 1 0/4 music.Dynamics \f
 \editionMod tweaks 1 0/8 music.Voice.A -"Editions"
 
+\editionMod tweaks 8 2/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 1)
+
+\editionMod tweaks 13 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 0)
+\editionMod tweaks 13 0/4 music.Voice.A \shape #'((0 . 0) (14 . 0) (-3 . 0.4) (0 . 0)) PhrasingSlur
+
 \editionMod dynamics 14 0/4 music.Dynamics \rall
 
 \editionMod dynamics 15 0/4 music.Dynamics \rubato
@@ -36,12 +41,18 @@ atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
 
 \editionMod dynamics 24 0/4 music.Dynamics \pp
 
+\editionMod tweaks 28 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(2.5 . -1)
+
 \editionMod dynamics 30 0/4 music.Dynamics \<
 
 \editionMod dynamics 31 0/4 music.Dynamics \>
 \editionMod dynamics 31 2/4 music.Dynamics \!
 
-\editionMod dynamics 32 0/4 music.Dynamics \crescPoco
+\editionMod dynamics 32 0/4 music.Voice.B \crescPoco
+
+\editionMod tweaks 32 0/4 music.Voice.A \shape #'((0 . 1.5) (7 . 1.5) (-8 . 14) (0 . 4.5)) PhrasingSlur
+
+\editionMod tweaks 34 0/4 music.Voice.A \shape #'((0 . 1.3) (7 . 2) (-8 . 13.5) (0 . 4)) PhrasingSlur
 
 \editionMod dynamics 38 1/4 music.Dynamics \>
 
@@ -57,10 +68,13 @@ atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
 \editionMod dynamics 50 0/4 music.Dynamics \<
 
 \editionMod dynamics 51 0/4 music.Dynamics \f
+\editionMod tweaks 51 0/4 music.Voice.A \shape #'(((0 . 0) (0 . 0) (0 . -0.6) (0 . -0.6)) ()) PhrasingSlur
 
 \editionMod dynamics 56 0/4 music.Dynamics \ff
 
 \editionMod dynamics 58 0/4 music.Dynamics \ff
+\editionMod tweaks 58 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 1.5)
+\editionMod tweaks 58 0/4 music.Voice.A \shape #'((0 . 0) (0 . -1) (0 . 1) (0 . 0)) PhrasingSlur
 
 \editionMod dynamics 59 0/4 music.Dynamics \morendo
 % \editionMod dynamics 59 0/4 music.Dynamics \>

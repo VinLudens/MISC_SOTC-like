@@ -51,9 +51,9 @@ right = \absolute {
   es'1 |
   d'1\) |
   
-  es'4\( d'8 c' bes4 \change Staff = "left" a |
+  es'4_\( d'8 c' bes4 \change Staff = "left" a |
   g8 f es d c4 bes, \) | \change Staff = "right"
-  f'4\( es'8 d' c'4 \change Staff = "left" bes |
+  f'4_\( es'8 d' c'4 \change Staff = "left" bes |
   a8 g f es d4 c \) | \change Staff = "right"
   
   g'4\( f'8 es' d'4 c' |
