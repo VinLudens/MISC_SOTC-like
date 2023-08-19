@@ -95,7 +95,7 @@ right = \absolute {
   <fis'' ais'' cis''' fis'''>4\( <e'' ais'' cis''' e'''>8 <d'' d'''> <cis'' fis'' ais'' cis'''>4 <b' cis'' fis'' b''> |
   <a' cis'' fis'' a''>8 <gis' gis''> <fis' a' cis'' fis''> <f' f''> <d' f' a' d''>4 <cis' f' a' cis''> |
   <a cis' fis' a'>1\) |
-  <a'' cis''' fis''' a'''>1 |
+  \ottava 1 <a'' cis''' fis''' a'''>1 | \ottava 0
   \clef "bass" fis1 |
 
   \bar "|."
