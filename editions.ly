@@ -7,19 +7,19 @@
 \addEdition fingering
 \addEdition dynamics
 
-crescPoco = \tweak DynamicText.self-alignment-X #LEFT 
+crescPoco = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0
         #(make-dynamic-script (markup #:normal-text #:italic "cresc. poco a poco"))
 
-morendo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
+morendo = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0 #(make-dynamic-script
   (markup #:normal-text #:italic "morendo"))
 
-rall = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
+rall = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0 #(make-dynamic-script
   (markup #:normal-text #:italic "rall."))
 
-rubato = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
+rubato = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0 #(make-dynamic-script
   (markup #:normal-text #:italic "rubato"))
 
-atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
+atempo = \tweak DynamicText.self-alignment-X #LEFT \tweak X-offset #0.0 #(make-dynamic-script
   (markup #:normal-text #:italic "a tempo"))
 
 \editionMod dynamics 1 0/4 music.Dynamics \f
