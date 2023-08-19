@@ -14,7 +14,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   } }
 }
 
-#(set-global-staff-size 19.2)
+#(set-global-staff-size 19.5)
 %showLastLength = R1 * 10
 
 \paper {

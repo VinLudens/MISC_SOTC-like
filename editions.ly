@@ -23,7 +23,6 @@ atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
   (markup #:normal-text #:italic "a tempo"))
 
 \editionMod dynamics 1 0/4 music.Dynamics \f
-\editionMod tweaks 1 0/8 music.Voice.A -"Editions"
 
 \editionMod tweaks 8 2/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 1)
 
