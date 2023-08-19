@@ -58,7 +58,7 @@ left = \absolute {
 
   es2. c4 |
   f2. d4 |
-  g2 d2 |
+  g2. d4 |
   % or "g2. d4 |" ?
   c2 c, |
   
