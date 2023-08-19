@@ -35,8 +35,11 @@ atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
 \editionMod dynamics 19 0/4 music.Dynamics \atempo
 
 \editionMod dynamics 22 0/4 music.Dynamics \>
+\editionMod tweaks 22 2/4 music.Voice.B \once\override Tie.layer = #-2
 
 \editionMod dynamics 23 2/4 music.Dynamics \ppp
+\editionMod tweaks 23 0/4 music.Voice.B \once\override Staff.TimeSignature.layer = #-1
+\editionMod tweaks 23 0/4 music.Voice.B \once\override Staff.TimeSignature.whiteout = #3
 
 \editionMod dynamics 24 0/4 music.Dynamics \pp
 
@@ -61,8 +64,13 @@ atempo = \tweak DynamicText.self-alignment-X #LEFT #(make-dynamic-script
 \editionMod dynamics 40 0/4 music.Dynamics \crescPoco
 
 \editionMod dynamics 42 0/4 music.Dynamics \mf
+\editionMod tweaks 42 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.4
 
 \editionMod dynamics 45 0/4 music.Dynamics \mf
+\editionMod tweaks 45 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.3
+
+\editionMod tweaks 47 3/4 music.Voice.B \override Beam.positions = #'(2 . 1.5)
+\editionMod tweaks 48 1/4 music.Voice.B \revert Beam.positions
 
 \editionMod dynamics 50 0/4 music.Dynamics \<
 
